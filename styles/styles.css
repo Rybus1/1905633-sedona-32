@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: white;
+    color: #333333;
+}
+
+button {
+    background-color: #756257;
+    color: white;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a {
+    color:inherit;
+    text-decoration: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+.page-header {
+    color: black;
+    font-size: 20px;
+    line-height: 25,88px;
+    font-weight: 700;
+    text-align: center;    
+}
+
+.rightpanel-button {
+    font-size: 16px;
+    line-height: 20.7px;
+}
+
+.general-section {
+    background-image: url("../img/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.black-header {
+    color: black;
+    font-weight: 700;
+}
+
+/*Зубчастая втулка
+.general-section-divider {
+    background-image: url("../img/main-page-border.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}*/
+
+.general-section-reasons {
+    font-size: 22px;
+    text-align: center;
+}
+
+.advantages-section {
+    text-align: center;
+}
+
+.advantage-blue-pile {
+    background-color: #83B3D3;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.advantage-white-header {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.advantage-navyblue-pile {
+    background-color: #83B3D31F;
+}
+
+.advantage-darkernavyblue-pile {
+    background-color: #83B3D333;
+}
+
+.advantage-label {
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.light-row {
+    background-color: #83B3D31F;
+}
+
+.advantage-white-pile {
+    background-color: white;
+}
+
+.advantage-header {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+
+.invitation-section {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.invitation-description {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.subscription {
+    background-image: url("../img/subscription-background.jpg");
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.subscription-description {
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: none;
+}
+
+.subscription-form {
+    font-size: 18px;
+    line-height: 26px;
+    color: black;
+}
+
+.subscription-apply-button {
+    background-color: #83B3D3;
+}
+
+.footer-phone {
+    font-size: 40px;
+    line-height: 40px;
+    color: black;
+}

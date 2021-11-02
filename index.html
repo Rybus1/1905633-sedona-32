@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -11,47 +12,54 @@
     <nav class="navigation-header">
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a href="#" class="navigation-link">Главная</a>
+          <a class="navigation-link" href="#">Главная</a>
         </li>
         <li class="navigation-item">
-          <a href="#" class="navigation-link">О Седоне</a>
+          <a class="navigation-link" href="#">О Седоне</a>
         </li>
         <li class="navigation-item">
-          <a href="catalog.html" class="navigation-link">Гостиницы</a>
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
       <a>
-        <img src="" alt="triangle-sedona-logo">
+        <img src="img/sedona-logo.svg" alt="triangle-sedona-logo" width="138" height="70">
       </a>
       <ul class="rightpanel-list">
         <li class="rightpanel-item">
-          <a href="#" class="rightpanel-link">
+          <a class="rightpanel-link" href="#">
             <span class="visually-hidden">
               Поиск
             </span>
           </a>
         </li>
         <li class="rightpanel-item">
-          <a href="#" class="rightpanel-link">
+          <a class="rightpanel-link" href="#">
             <span class="visually-hidden">
               Закладки
             </span>
           </a>
         </li>
         <li class="rightpanel-item">
-          <a href="#" class="rightpanel-link">
-          </a>
+          <button class="rightpanel-button" type="button">
+            Хочу сюда!
+          </button>
         </li>
       </ul>
     </nav>
   </header>
   <main class="main-index">
     <section class="general-section">
-      <img src="" alt="Sedona-main-logo">
-      <h1>Седона — небольшой городок в Аризоне,<br>
+      <img src="img/index-logo.svg" alt="Добро пожаловать в Седону" width="458" height="352">
+      <!--Зубчастая втулка
+        <div class="general-section-divider">
+        <span class="visually-hidden">
+          Разделитель
+          <span>
+      </div>-->
+      <h1 class="black-header">Седона — небольшой городок в Аризоне,<br>
         заслуживающий большего!
       </h1>
-      <p>
+      <p class="general-section-reasons">
         Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
       </p>
     </section>
@@ -67,11 +75,11 @@
           <p class="advantage-description">
             Седона — не аттракцион для туристов, там течёт своя жизнь
           </p>
-          <img src="" alt="Sedona-photo-1">
+          <img src="img/photo-1.jpg" alt="Sedona-photo-1" width="800" height="384">
         </li>
-        <li class="white-row">
+        <li class="light-row">
           <ul>
-            <li class="advantage-white-pile">
+            <li class="advantage-navyblue-pile">
               <h4 class="advantage-header">
                 Жильё
               </h4>
@@ -87,7 +95,7 @@
                 Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
               </p>
             </li>
-            <li class="advantage-white-pile">
+            <li class="advantage-navyblue-pile">
               <h4 class="advantage-header">
                 Сувениры
               </h4>
@@ -97,8 +105,8 @@
             </li>
           </ul>
         <li class="advantage-blue-pile">
-          <img src="" alt="Sedona-photo-2">
-          <h3 class="advantage-header">
+          <img src="img/photo-2.jpg" alt="Sedona-photo-2" width="800" height="384">
+          <h3 class="advantage-white-header">
             Там есть мост дьявола
           </h3>
           <p class="advantage-number">
@@ -108,7 +116,7 @@
             Да, по нему можно пройти! Если вы осмелитесь, разумеется
           </p>
         </li>
-        <li class="advantage-white-pile">
+        <li class="advantage-navyblue-pile">
           <h3 class="advantage-header">
             Небольшая площадь
           </h3>
@@ -119,7 +127,7 @@
             Все достопримечательности находятся очень близко
           </p>
         </li>
-        <li class="advantage-white-pile">
+        <li class="advantage-darkernavyblue-pile">
           <h3 class="advantage-header">
             Красивая дорога
           </h3>
@@ -130,7 +138,7 @@
             Ехать в Седону из Лас-Вегаса совсем не скучно!
           </p>
         </li>
-        <li class="advantage-white-pile">
+        <li class="advantage-navyblue-pile">
           <h3 class="advantage-header">
             Мало туристов
           </h3>
@@ -144,9 +152,10 @@
       </ul>
     </section>
     <section class="invitation-section">
-      <h2>Заинтересовались?</h2>
+      <h2 class="black-header">Заинтересовались?</h2>
       <p class="invitation-description">
-        Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
+        Укажите предполагаемые даты поездки,<br>
+        и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
       <button class="invitation-hotel-search" type="button">
         ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
@@ -172,21 +181,21 @@
         <li>
           <a href="https://twitter.com/htmlacademy_ru">
             <span class="visually-hidden">
-              <img src="" alt="twitter-link">
+              Twitter
             </span>
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/htmlacademy/">
             <span class="visually-hidden">
-              <img src="" alt="facebook-link">
+              Facebook
             </span>
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com/c/HTMLAcademyRUS">
             <span class="visually-hidden">
-              <img src="" alt="youtube-link">
+              Youtube
             </span>
           </a>
         </li>
@@ -194,7 +203,7 @@
     </section>
     <section class="footer-contacts">
       <h2 class="visually-hidden">Контакты</h2>
-      <a href="tel:+78128121212" class="footer-phone">
+      <a class="footer-phone" href="tel:+78128121212">
         +7 (812) 812-12-12
       </a>
     </section>
