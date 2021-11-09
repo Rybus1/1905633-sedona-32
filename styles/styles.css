@@ -20,6 +20,7 @@ body {
     line-height: 21px;
     background-color: white;
     color: #333333;
+    background-color: white;
 }
 
 button {
@@ -169,3 +170,282 @@ h1 {
     line-height: 40px;
     color: black;
 }
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+.search-icon {
+    background-image: url("../img/search.svg");
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+}
+
+.favourites-icon {
+    background-image: url("../img/favourites.svg");
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+}
+
+.house-icon {
+    background-image: url("../img/house.svg");
+    width: 74,7px;
+    height: 72px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.burger-icon {
+    background-image: url("../img/burger.svg");
+    width: 73,81px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gift-icon {
+    background-image: url("../img/gift.svg");
+    width: 64px;
+    height: 76px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter-logo {
+    background-image: url("../img/twitter.svg");
+    width: 18px;
+    height: 14,96px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.facebook-logo {
+    background-image: url("../img/facebook.svg");
+    width: 10px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.youtube-logo {
+    background-image: url("../img/youtube.svg");
+    width: 20,1px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.academy-logo {
+    background-image: url("../img/academy-logo.svg");
+    width: 114,9px;
+    height: 32,9px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner-header {
+    background-image: url("../img/catalog-background1.jpg");
+    width: 1200px;
+    height: 408px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.inner-header-title {
+    font-size: 60px;
+    line-height: 77,64px;
+    color: white;
+    font-weight: 700;
+}
+
+.home-icon {
+    background-image: url("../img/variant=home.svg");
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrow-icon {
+    background-image: url("../img/variant=arrow.svg");
+    width: 5,11px;
+    height: 7,95px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.breadcrumbs-link {
+    font-size: 16px;
+    line-height: 20,7px;
+    color: white;
+    font-weight: 400;
+}
+
+fieldset {
+    border: none;
+    color: white;
+}
+
+.filterlist-title {
+    font-size: 20px;
+    line-height: 25,88px;
+    font-weight: 700;    
+}
+
+.control-label {
+    font-size: 18px;
+    line-height: 23,29px;
+    font-weight: 400; 
+}
+
+.blue-button {
+    background-color: #83B3D3;
+    color: white;
+    font-size: 16px;
+    line-height: 20,7px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.transparent-button {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    line-height: 23,29px;
+    font-weight: 400;
+    border: none;
+}
+
+.search-amount-found {
+    color: black;
+    font-size: 30px;
+    line-height: 38,82px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.select-control {
+    color: #333333;
+    font-size: 18px;
+    line-height: 23,29px;
+    font-weight: 400; 
+}
+
+.tile-look {
+    background-image: url("../img/mode-tile1.svg");
+    width: 16px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.slideshow-look {
+    background-image: url("../img/mode-slideshow1.svg");
+    width: 16px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.list-look {
+    background-image: url("../img/mode-list1.svg");
+    width: 16px;
+    height: 14px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.hotel-card-title {
+    color: black;
+    font-size: 24px;
+    line-height: 31,06px;
+    font-weight: 700; 
+}
+
+.hotel-card-type {
+    color: black;
+    font-size: 18px;
+    line-height: 23,29px;
+    font-weight: 400; 
+}
+
+.hotel-card-price {
+    color: black;
+    font-size: 18px;
+    line-height: 23,29px;
+    font-weight: 400; 
+}
+
+.hotel-card-button-more {
+    color: white;
+    font-size: 16px;
+    line-height: 20,7px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.hotel-card-button-favourites {
+    background-color: #83B3D3;
+    color: white;
+    font-size: 16px;
+    line-height: 20,7px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.hotel-card-rating {
+    color: black;
+    font-size: 16px;
+    line-height: 20,7px;
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+
+.button-show-more {
+    background-color: #83B3D3;
+    color: white;
+    font-size: 20px;
+    line-height: 25,88px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.pagination-link {
+    background-color: #83B3D3;
+    color: white;
+    font-size: 20px;
+    line-height: 25,88px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.pagination-current {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    line-height: 25,88px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}
+
+.pagination-results {
+    color: black;
+    font-size: 18px;
+    line-height: 23,29px;
+    font-weight: 400; 
+}
+
+.pagination-results-value {
+    color: black;
+    font-size: 18px;
+    line-height: 23,29px;
+    font-weight: 400; 
+}
+
+.catalog-subscription .subscription {
+    color: black;
+    background-image: none;
+}
+
