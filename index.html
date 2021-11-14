@@ -10,7 +10,7 @@
 <body>
   <header class="page-header">
     <nav class="navigation-header">
-      <ul class="navigation-list">
+      <ul class="navigation-list list">
         <li class="navigation-item">
           <a class="navigation-link" href="#">Главная</a>
         </li>
@@ -24,7 +24,7 @@
       <a>
         <img src="img/sedona-logo.svg" alt="triangle-sedona-logo" width="138" height="70">
       </a>
-      <ul class="rightpanel-list">
+      <ul class="rightpanel-list list">
         <li class="rightpanel-item">
           <a class="rightpanel-link search-icon" href="#">
             <span class="visually-hidden">
@@ -40,7 +40,7 @@
           </a>
         </li>
         <li class="rightpanel-item">
-          <button class="rightpanel-button" type="button">
+          <button class="rightpanel-button brown-button" type="button">
             Хочу сюда!
           </button>
         </li>
@@ -50,13 +50,7 @@
   <main class="main-index">
     <section class="general-section">
       <img src="img/index-logo.svg" alt="Добро пожаловать в Седону" width="458" height="352">
-      <!--Зубчастая втулка 
-        <div class="general-section-divider">
-        <span class="visually-hidden">
-          Разделитель
-          <span>
-      </div>-->
-      <h1 class="black-header">Седона — небольшой городок в Аризоне,<br>
+      <h1 class="black-header main-caption">Седона — небольшой городок в Аризоне,<br>
         заслуживающий большего!
       </h1>
       <p class="general-section-reasons">
@@ -64,7 +58,10 @@
       </p>
     </section>
     <section class="advantages-section">
-      <ul class="advantages-list">
+      <span class="visually-hissden">
+        <h2>Список преимуществ Седоны</h2>
+      </span>
+      <ul class="advantages-list list">
         <li class="advantage-blue-pile">
           <h3 class="advantage-label">
             Настоящий городок
@@ -78,9 +75,8 @@
           <img src="img/photo-1.jpg" alt="Sedona-photo-1" width="800" height="384">
         </li>
         <li class="light-row">
-          <ul>
-            <li class="advantage-navyblue-pile">
-              <div class="house-icon"></div>
+          <ul class="list">
+            <li class="advantage-navyblue-pile house-icon">
               <h4 class="advantage-header">
                 Жильё
               </h4>
@@ -88,8 +84,7 @@
                 Рекомендуем пожить в настоящем мотеле, всё как в кино!
               </p>
             </li>
-            <li class="advantage-white-pile">
-              <div class="burger-icon"></div>
+            <li class="advantage-white-pile burger-icon">
               <h4 class="advantage-header">
                 Еда
               </h4>
@@ -97,8 +92,7 @@
                 Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
               </p>
             </li>
-            <li class="advantage-navyblue-pile">
-              <div class="gift-icon"></div>
+            <li class="advantage-navyblue-pile gift-icon">
               <h4 class="advantage-header">
                 Сувениры
               </h4>
@@ -160,7 +154,7 @@
         Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
-      <button class="invitation-hotel-search" type="button">
+      <button class="invitation-hotel-search brown-button" type="button">
         ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
       </button>
     </section>
@@ -171,7 +165,7 @@
       </p>
       <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
         <input type="text" name="subscription-mail" placeholder="Ваш e-mail">
-        <button class="subscription-apply-button" type="submit">
+        <button class="subscription-apply-button blue-button" type="submit">
           Подписаться
         </button>
       </form>
@@ -180,7 +174,7 @@
   <footer>
     <section class="footer-social">
       <h2 class="visually-hidden">Наши социальные сети</h2>
-      <ul class="footer-social-list">
+      <ul class="footer-social-list list">
         <li>
           <a class="twitter-logo" href="https://twitter.com/htmlacademy_ru">
             <span class="visually-hidden">
@@ -206,7 +200,7 @@
     </section>
     <section class="footer-contacts">
       <h2 class="visually-hidden">Контакты</h2>
-      <a class="footer-phone" href="tel:+78128121212">
+      <a class="footer-phone link" href="tel:+78128121212">
         +7 (812) 812-12-12
       </a>
     </section>

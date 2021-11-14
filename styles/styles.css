@@ -18,43 +18,52 @@ body {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
-    background-color: white;
+    background-color: #FFFFFF;
     color: #333333;
-    background-color: white;
 }
 
-button {
+.navigation-link, .footer-phone, .breadcrumbs-link, .hotel-card-link, .pagination-link {
+    color:inherit;
+    text-decoration: inherit;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.main-caption {
+    text-transform: uppercase;
+}
+
+.brown-button {
     background-color: #756257;
-    color: white;
+    color: #FFFFFF;
     font-size: 20px;
     line-height: 36px;
     text-transform: uppercase;
     font-weight: 700;
 }
 
-a {
-    color:inherit;
-    text-decoration: inherit;
-}
-
-ul {
-    list-style-type: none;
-}
-
-h1 {
+.blue-button {
+    background-color: #83B3D3;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 21px;
     text-transform: uppercase;
+    font-weight: 700;
 }
+
 .page-header {
-    color: black;
+    color: #000000;
     font-size: 20px;
-    line-height: 25,88px;
+    line-height: 26px;
     font-weight: 700;
     text-align: center;    
 }
 
 .rightpanel-button {
     font-size: 16px;
-    line-height: 20.7px;
+    line-height: 21px;
 }
 
 .general-section {
@@ -67,29 +76,34 @@ h1 {
 }
 
 .black-header {
-    color: black;
+    color: #000000;
     font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
 }
-
-/*Зубчастая втулка
-.general-section-divider {
-    background-image: url("../img/main-page-border.svg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-}*/
 
 .general-section-reasons {
     font-size: 22px;
+    line-height: 36px;
     text-align: center;
+    color: #333333;
 }
 
 .advantages-section {
     text-align: center;
 }
 
+.advantage-description {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+}
+
 .advantage-blue-pile {
     background-color: #83B3D3;
-    color: white;
+    color: #FFFFFF;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -120,13 +134,15 @@ h1 {
 }
 
 .advantage-white-pile {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .advantage-header {
     text-transform: uppercase;
-    color: black;
+    color: #000000;
     font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
 }
 
 .invitation-section {
@@ -138,15 +154,20 @@ h1 {
 .invitation-description {
     font-size: 22px;
     line-height: 26px;
+    color: #333333;
 }
 
 .subscription {
     background-image: url("../img/subscription-background.jpg");
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 411px;
+    background-position: center;
 }
 
 .subscription-description {
@@ -158,7 +179,7 @@ h1 {
 .subscription-form {
     font-size: 18px;
     line-height: 26px;
-    color: black;
+    color: #000000;
 }
 
 .subscription-apply-button {
@@ -168,11 +189,11 @@ h1 {
 .footer-phone {
     font-size: 40px;
     line-height: 40px;
-    color: black;
+    color: #000000;
 }
 
 .visually-hidden {
-    visibility: hidden;
+    display: none;
 }
 
 .search-icon {
@@ -191,7 +212,7 @@ h1 {
 
 .house-icon {
     background-image: url("../img/house.svg");
-    width: 74,7px;
+    width: 75px;
     height: 72px;
     background-repeat: no-repeat;
     background-position: center;
@@ -199,7 +220,7 @@ h1 {
 
 .burger-icon {
     background-image: url("../img/burger.svg");
-    width: 73,81px;
+    width: 74px;
     height: 70px;
     background-repeat: no-repeat;
     background-position: center;
@@ -216,7 +237,7 @@ h1 {
 .twitter-logo {
     background-image: url("../img/twitter.svg");
     width: 18px;
-    height: 14,96px;
+    height: 15px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -231,7 +252,7 @@ h1 {
 
 .youtube-logo {
     background-image: url("../img/youtube.svg");
-    width: 20,1px;
+    width: 20px;
     height: 16px;
     background-repeat: no-repeat;
     background-position: center;
@@ -239,8 +260,8 @@ h1 {
 
 .academy-logo {
     background-image: url("../img/academy-logo.svg");
-    width: 114,9px;
-    height: 32,9px;
+    width: 115px;
+    height: 33px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -255,73 +276,56 @@ h1 {
 
 .inner-header-title {
     font-size: 60px;
-    line-height: 77,64px;
-    color: white;
+    line-height: 78px;
+    color: #FFFFFF;
     font-weight: 700;
 }
 
 .home-icon {
-    background-image: url("../img/variant=home.svg");
+    background-image: url("../img/variant-home.svg");
     width: 12px;
     height: 12px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.arrow-icon {
-    background-image: url("../img/variant=arrow.svg");
-    width: 5,11px;
-    height: 7,95px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .breadcrumbs-link {
     font-size: 16px;
-    line-height: 20,7px;
-    color: white;
+    line-height: 21px;
+    color: #FFFFFF;
     font-weight: 400;
 }
 
-fieldset {
+.filterlist-group {
     border: none;
-    color: white;
+    color: #FFFFFF;
 }
 
 .filterlist-title {
     font-size: 20px;
-    line-height: 25,88px;
+    line-height: 26px;
     font-weight: 700;    
 }
 
 .control-label {
     font-size: 18px;
-    line-height: 23,29px;
+    line-height: 23px;
     font-weight: 400; 
-}
-
-.blue-button {
-    background-color: #83B3D3;
-    color: white;
-    font-size: 16px;
-    line-height: 20,7px;
-    text-transform: uppercase;
-    font-weight: 700;
 }
 
 .transparent-button {
     background-color: transparent;
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
-    line-height: 23,29px;
+    line-height: 23px;
     font-weight: 400;
     border: none;
 }
 
 .search-amount-found {
-    color: black;
+    color: #000000;
     font-size: 30px;
-    line-height: 38,82px;
+    line-height: 39px;
     font-weight: 700; 
     text-transform: uppercase;
 }
@@ -329,7 +333,7 @@ fieldset {
 .select-control {
     color: #333333;
     font-size: 18px;
-    line-height: 23,29px;
+    line-height: 23px;
     font-weight: 400; 
 }
 
@@ -358,94 +362,94 @@ fieldset {
 }
 
 .hotel-card-title {
-    color: black;
+    color: #000000;
     font-size: 24px;
-    line-height: 31,06px;
+    line-height: 31px;
     font-weight: 700; 
 }
 
 .hotel-card-type {
-    color: black;
+    color: #000000;
     font-size: 18px;
-    line-height: 23,29px;
+    line-height: 23px;
     font-weight: 400; 
 }
 
 .hotel-card-price {
-    color: black;
+    color: #000000;
     font-size: 18px;
-    line-height: 23,29px;
+    line-height: 23px;
     font-weight: 400; 
 }
 
 .hotel-card-button-more {
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
-    line-height: 20,7px;
+    line-height: 21px;
     font-weight: 700; 
     text-transform: uppercase;
 }
 
 .hotel-card-button-favourites {
     background-color: #83B3D3;
-    color: white;
+    color: #FFFFFF;
     font-size: 16px;
-    line-height: 20,7px;
+    line-height: 21px;
     font-weight: 700; 
     text-transform: uppercase;
 }
 
 .hotel-card-rating {
-    color: black;
+    color: #000000;
     font-size: 16px;
-    line-height: 20,7px;
+    line-height: 21px;
     font-weight: 400; 
     text-transform: uppercase;
 }
 
 .button-show-more {
     background-color: #83B3D3;
-    color: white;
+    color: #FFFFFF;
     font-size: 20px;
-    line-height: 25,88px;
+    line-height: 26px;
     font-weight: 700; 
     text-transform: uppercase;
 }
 
 .pagination-link {
     background-color: #83B3D3;
-    color: white;
+    color: #FFFFFF;
     font-size: 20px;
-    line-height: 25,88px;
+    line-height: 26px;
     font-weight: 700; 
     text-transform: uppercase;
 }
 
 .pagination-current {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     font-size: 20px;
-    line-height: 25,88px;
+    line-height: 26px;
     font-weight: 700; 
     text-transform: uppercase;
 }
 
 .pagination-results {
-    color: black;
+    color: #000000;
     font-size: 18px;
-    line-height: 23,29px;
+    line-height: 23px;
     font-weight: 400; 
 }
 
 .pagination-results-value {
-    color: black;
+    color: #000000;
     font-size: 18px;
-    line-height: 23,29px;
+    line-height: 23px;
     font-weight: 400; 
 }
 
 .catalog-subscription .subscription {
-    color: black;
+    color: #000000;
     background-image: none;
 }
 
