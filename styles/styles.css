@@ -64,6 +64,7 @@ body {
     line-height: 36px;
     text-transform: uppercase;
     font-weight: 700;
+    border-radius: 4px;
 }
 
 .blue-button {
@@ -74,6 +75,7 @@ body {
     line-height: 21px;
     text-transform: uppercase;
     font-weight: 700;
+    border-radius: 4px;
 }
 
 .page-header {
@@ -89,6 +91,7 @@ body {
     line-height: 21px;
     width: 160px;
     height: 37px;
+    border: 0px;
 }
 
 .general-section {
@@ -219,9 +222,11 @@ body {
 }
 
 .subscription-form {
+    display: flex;
     font-size: 18px;
     line-height: 26px;
     color: #000000;
+    align-content: baseline;
 }
 
 .subscription-apply-button {
@@ -234,6 +239,9 @@ body {
     line-height: 26px;
     font-family: "PT Sans", sans-serif;
     text-transform: uppercase;
+    border-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .footer-phone {
@@ -421,6 +429,11 @@ body {
     height: 48px;
     width: 287px;
     padding-left: 19px;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 .tile-look {
@@ -507,6 +520,7 @@ body {
     margin-right: auto;
     margin-top: 31px;
     margin-bottom: 30px;
+    border: 0px;
 }
 
 .pagination-link {
@@ -519,6 +533,12 @@ body {
     display: block;
     box-sizing: border-box;
     padding-top: 14px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    text-justify: center;
+    margin-top: 31px;
+    border-radius: 4px;
 }
 
 .pagination-current {
@@ -665,6 +685,8 @@ body {
     padding-top: 13px;
     padding-bottom: 17px;
     width: 575px;
+    border-radius: 10px;
+    border: 0px;
 }
 
 .subscription-header {
@@ -695,6 +717,12 @@ body {
     border: 0px;
     padding-left: 22px;
     padding-right: 19px;
+    margin-left: 200px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .footer {
@@ -781,7 +809,8 @@ body {
     width: 143px;
     height: 48px;
     background-color: transparent;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
 }
 
 .price-button {
@@ -871,15 +900,6 @@ body {
     gap: 8px;
 }
 
-.pagination-link {
-    display: block;
-    width: 55px;
-    height: 55px;
-    text-align: center;
-    text-justify: center;
-    margin-top: 31px;
-}
-
 .pagination-results-number {
     display: block;
 }
@@ -896,6 +916,11 @@ body {
     width: 160px;
     height: 48px;
     padding-left: 17px;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
 }
 
 .mail-input {
@@ -930,4 +955,12 @@ body {
     padding-top: 4px;
     outline: 3px solid #83B3D3;
     border-radius: 10px;
+}
+
+.hotel-list {
+    margin-top: 45px;
+}
+
+.catalog-subscription .subscription {
+    height: 311px;
 }
