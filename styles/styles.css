@@ -261,14 +261,19 @@ body {
     width: 18px;
     height: 18px;
     background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
 }
 
 .favourites-icon {
     display: block;
-    background-image: url("../img/favourites.svg");
     width: 18px;
     height: 18px;
     background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
 }
 
 .house-icon {
@@ -353,11 +358,8 @@ body {
 
 .home-icon {
     display: block;
-    background-image: url("../img/variant-home.svg");
     width: 12px;
     height: 12px;
-    background-repeat: no-repeat;
-    margin-top: 8px;
 }
 
 .breadcrumbs-link {
@@ -400,6 +402,7 @@ body {
     line-height: 23px;
     font-weight: 400;
     border: none;
+    margin-top: 20px;
 }
 
 .search-amount-found {
@@ -513,6 +516,9 @@ body {
     line-height: 26px;
     font-weight: 700; 
     text-transform: uppercase;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 14px;
 }
 
 .pagination-current {
@@ -662,12 +668,17 @@ body {
 }
 
 .subscription-header {
+    padding-top: 91px;
     margin: 0px;
-    margin-top: 94px;
     margin-bottom: 15px;
     font-size: 30px;
     line-height: 36px;
     font-family: "PT Sans", sans-serif;
+}
+
+.subscription-catalogue {
+    margin-top: 94px;
+    padding-top: 0px;
 }
 
 .subscription-description {
@@ -893,4 +904,30 @@ body {
     background-color: #F2F2F2;
     border: 0px;
     padding-left: 22px;
+}
+
+.navigation-link:hover {
+    color: #756257;
+}
+
+.navigation-link:focus {
+    padding: 6px 12px;
+    padding-top: 4px;
+    outline: 3px solid #83B3D3;
+    border-radius: 10px;
+}
+
+.rightpanel-icon {
+    fill: #000000;
+}
+
+.rightpanel-icon:hover {
+    fill: #756257;
+}
+
+.rightpanel-link:focus {
+    padding: 10px;
+    padding-top: 4px;
+    outline: 3px solid #83B3D3;
+    border-radius: 10px;
 }
