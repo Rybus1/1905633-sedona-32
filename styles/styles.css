@@ -149,7 +149,7 @@ body {
                         url("../img/index-background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 485px;
-    background-position: 0 214px, 0 top;
+    background-position: 0 215px, 0 top;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
@@ -438,8 +438,11 @@ body {
 
 .home-icon {
     display: block;
-    width: 12px;
-    height: 12px;
+    width: 36px;
+    height: 25px;
+    background-image: url("../img/variant-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: 23px 7px;
 }
 
 .breadcrumbs-link {
@@ -686,6 +689,7 @@ body {
     margin-right: 21px;
     display: block;
     align-self: center;
+    position: relative;
 }
 
 .rightpanel-item:nth-of-type(3) {
@@ -874,7 +878,7 @@ body {
 .breadcrumbs {
     display: flex;
     height: 21px;
-    gap: 26px;
+    gap: 1px;
     position: relative;
 }
 
@@ -1228,16 +1232,96 @@ body {
     opacity: 0.3;
 }
 
-.breadcrumbs-item:hover {
+.breadcrumbs-link:hover {
     opacity: 0.6;
 }
 
-.breadcrumbs-item:focus {
+.breadcrumbs-link:focus {
     border: 3px solid #83B3D3;
     border-radius: 4px;
     outline: none;
 }
 
-.breadcrumbs-item:active {
+.breadcrumbs-link:active {
     opacity: 0.6;
+}
+
+.popover {
+    display: grid;
+    position: absolute;
+    top: 45px;
+    right: -191px;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 400px;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+    min-height: 232px;
+    border-radius: 20px;
+    border: 1px solid #E5E5E5;
+  }
+
+.popover-list {
+    padding: 25px;
+}
+
+.popover-transition-button {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    height: 60px;
+    border-radius: 0 0 20px 20px;
+    outline: none;
+    border: none;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+}
+
+.popover-list-item {
+    display: flex;
+}
+
+.popover-list-item:not(:nth-of-type(1)) {
+    margin-top: 25px;
+}
+
+.popover-hotel-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.popover-hotel-text-info {
+    margin-left: 17px;
+}
+
+.popover-hotel-label {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.popover-hotel-type {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0px;
+    text-align: left;
+    margin-top: -18px;
+}
+
+.popover-delete-icon {
+    opacity: 0.2;
+    margin-top: 7px;
+    margin-left: auto;
 }
