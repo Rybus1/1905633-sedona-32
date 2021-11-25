@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -79,6 +80,15 @@
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="#">Гостиницы</a>
           </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#">Гостиницы</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#">Гостиницы</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#">Гостиницы</a>
+          </li>
         </ul>
         <section class="filterlist">
           <h2 class="visually-hidden">Список фильтров для гостиниц</h2>
@@ -142,7 +152,6 @@
                   <span class="filterlist-text">до</span>
                 </label>
               </div>
-              <button class="button blue-button price-button" type="submit">Применить</button>
               <div class="range-scale-master">
                 <div class="range-scale">
                   <div class="range-bar">
@@ -155,8 +164,11 @@
                   </div>
                 </div>
               </div>
-              <button class="button transparent-button" type="reset">Сбросить</button>
             </fieldset>
+            <div class="filter-buttons">
+              <button class="button blue-button price-button" type="submit">Применить</button>
+              <button class="button transparent-button" type="reset">Сбросить</button>
+            </div>
           </form>
         </section>
       </div>
@@ -183,7 +195,7 @@
           <button class="slideshow-look outlook" type="button">
             <span class="visually-hidden">Показать слайдшоу</span>
           </button>
-          <button class="list-look outlook" type="button">
+          <button class="list-look outlook outlook-current" type="button">
             <span class="visually-hidden">Показать списком</span>
           </button>
         </div>
@@ -354,7 +366,8 @@
     <section class="footer-credentials">
       <h2 class="visually-hidden">Реквизиты</h2>
       <a class="academy-logo" href="https://htmlacademy.ru">
-        <svg class="academy-logo-image" aria-hidden="true" focusable="false" width="115" height="33" viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg">
+        <svg class="academy-logo-image" aria-hidden="true" focusable="false" width="115" height="33"
+          viewBox="0 0 115 33" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 12.8999V15.4999H2.5V12.8999H0Z" fill="black" />
           <path
             d="M11.6 4.5C10 4.5 8.80002 5.2 8.00002 6.2H7.90002V0H5.90002V15.5H7.90002V10.2C7.90002 8.1 9.20002 6.6 11.2 6.6C13 6.6 14.1 8 14.1 9.8V15.5H16.1V9.4C16.2 6.4 14.3 4.5 11.6 4.5Z"

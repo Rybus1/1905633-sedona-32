@@ -39,6 +39,7 @@ body {
     grid-template-columns: 1200px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0 0 15px 0 #00000033;
 }
 
 .main-container {
@@ -189,6 +190,14 @@ body {
     line-height: 21px;
     text-align: center;
     color: #333333;
+    display: block;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin: 0px;
+}
+
+.advantage-description:last-of-type {
+    padding-bottom: 77px;
 }
 
 .advantage-blue-pile {
@@ -249,6 +258,7 @@ body {
 
 .subscription {
     background-image: url("../img/subscription-background.jpg");
+    background-color: #333333;
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
@@ -270,6 +280,7 @@ body {
     line-height: 26px;
     color: #000000;
     align-content: baseline;
+    padding-bottom: 94px;
 }
 
 .subscription-apply-button {
@@ -362,20 +373,20 @@ body {
     background-image: url("../img/house.svg");
     background-repeat: no-repeat;
     background-size: 75px 72px;
-    background-position: bottom 223px left 50%;
+    background-position: top 89px left 50%;
 }
 
 .burger-icon {
     background-image: url("../img/burger.svg");
     background-repeat: no-repeat;
-    background-position: bottom 223px left 50%;
+    background-position: top 91px left 50%;
     background-size: 74px 70px;
 }
 
 .gift-icon {
     background-image: url("../img/gift.svg");
     background-repeat: no-repeat;
-    background-position: bottom 223px left 50%;
+    background-position: top 85px left 50%;
     background-size: 64px 76px;
 }
 
@@ -386,7 +397,6 @@ body {
     height: 15px;
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: 72px;
 }
 
 .facebook-logo {
@@ -481,11 +491,12 @@ body {
 .transparent-button {
     background-color: transparent;
     color: #FFFFFF;
-    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
     line-height: 23px;
     font-weight: 400;
     border: none;
-    margin-top: 20px;
+    height: 23px;
 }
 
 .transparent-button:hover {
@@ -580,9 +591,10 @@ body {
     line-height: 21px;
     font-weight: 700; 
     text-transform: uppercase;
-    padding-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 9px;
     width: 151px;
-    height: 37px;
+    min-height: 19px;
     text-align: center;
     text-decoration: none;
 }
@@ -661,22 +673,28 @@ body {
     display: flex;
     margin-left: 71px;
     margin-right: 72px;
+    position: relative;
 }
 
 .navigation-list {
     display: flex;
     gap: 33px;
     flex-wrap: wrap;
+    max-width: 460px;
 }
 
 .navigation-item {
     display: block;
     align-self: center;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .navigation-logo {
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    left: 460px;
+    top: 0px;
 }
 
 .rightpanel-list {
@@ -727,12 +745,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-}
-
-.advantage-description {
-    display: block;
-    padding: 0 90px 0 90px;
-    margin: 0px;
 }
 
 .advantage-label {
@@ -842,8 +854,11 @@ body {
 .footer-social-list {
     display: flex;
     flex-wrap: wrap;
-    min-height: 120px;
     gap: 30px;
+    max-width: 168px;
+    margin-left: 72px;
+    margin-top: 50px;
+    margin-bottom: 55px;
 }
 
 .footer-social-icon {
@@ -893,7 +908,8 @@ body {
 
 .price-range {
     display: grid;
-    grid-template-columns: 368px 1fr;
+    grid-template-columns: 368px;
+    grid-template-rows: 60px 70px;
     margin-left: auto;
 }
 
@@ -916,6 +932,12 @@ body {
     width: 48px;
     height: 48px;
     background-color: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.outlook-current {
+    border: 2px solid #000000;
 }
 
 .search-results {
@@ -930,6 +952,8 @@ body {
 
 .filterlist-price-container {
     display: flex;
+    max-height: 50px;
+    margin-bottom: 20px;
 }
 
 .filterlist-pricefield {
@@ -992,6 +1016,7 @@ body {
 
 .range-scale-master {
     position: relative;
+    align-self: top;
 }
 
 .range-scale {
@@ -1041,6 +1066,7 @@ body {
 }
 
 .price-button {
+    margin-top: 60px;
     font-size: 16px;
     line-height: 21px;
     width: 160px;
@@ -1079,6 +1105,7 @@ body {
 .hotel-details {
     display: grid;
     grid-template-columns: 160px 160px;
+    grid-template-rows: 54px 1fr;
 }
 
 .hotel-card-button-favourites {
@@ -1246,6 +1273,7 @@ body {
     opacity: 0.6;
 }
 
+<<<<<<< Updated upstream
 .popover {
     display: grid;
     position: absolute;
@@ -1324,4 +1352,50 @@ body {
     opacity: 0.2;
     margin-top: 7px;
     margin-left: auto;
+=======
+.control-label {
+    max-width: 177px;
+    word-wrap: break-word;
+}
+
+.breadcrumbs-item:not(:last-of-type)::after {
+    content: url("../img/variant-arrow.svg");
+    position: absolute;
+    left: 23px;
+    top: 3px;
+}
+
+.favourites-shape::after {
+    content: "12";
+    color: #FFFFFF;
+    font-family: "PT Sans", sans-serif;
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 400;
+    background-color: #7DB54F;
+    border-radius: 50%;
+    padding: 3px 4px;
+    position: absolute;
+    left: 12px;
+    top: -8px;
+}
+
+.navigation-link-current::after {
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    height: 2px;
+    width: 68px;
+    background-color: #756257;
+    content: "";
+}
+
+.price-flex-container {
+    display: flex;
+}
+
+.filter-buttons {
+    display: grid;
+    grid-template-rows: 108px, 1fr;
+>>>>>>> Stashed changes
 }

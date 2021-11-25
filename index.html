@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
       <nav class="navigation-header">
         <ul class="navigation-list list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link1" href="#">Главная</a>
+            <a class="navigation-link navigation-link-current" href="#">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
@@ -28,14 +29,16 @@
         <ul class="rightpanel-list list">
           <li class="rightpanel-item">
             <a class="rightpanel-link search-icon" href="#">
-              <svg class="rightpanel-icon" aria-hidden="true" focusable="false" width="18" height="18"
-                viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M18 16.5L14.3 12.8C15.3 11.5 16 9.8 16 7.9C16 3.5 12.4 -0.1 8 -0.1C3.6 -0.1 0 3.6 0 8C0 12.4 3.6 16 8 16C9.8 16 11.5 15.4 12.9 14.3L16.6 18L18 16.5ZM8 14C4.7 14 2 11.3 2 8C2 4.7 4.7 2 8 2C11.3 2 14 4.7 14 8C14 11.3 11.3 14 8 14Z" />
-              </svg>
-              <span class="visually-hidden">
-                Поиск
-              </span>
+              <div class="favourites-shape">
+                <svg class="rightpanel-icon" aria-hidden="true" focusable="false" width="18" height="18"
+                  viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M18 16.5L14.3 12.8C15.3 11.5 16 9.8 16 7.9C16 3.5 12.4 -0.1 8 -0.1C3.6 -0.1 0 3.6 0 8C0 12.4 3.6 16 8 16C9.8 16 11.5 15.4 12.9 14.3L16.6 18L18 16.5ZM8 14C4.7 14 2 11.3 2 8C2 4.7 4.7 2 8 2C11.3 2 14 4.7 14 8C14 11.3 11.3 14 8 14Z" />
+                </svg>
+                <span class="visually-hidden">
+                  Поиск
+                </span>
+              </div>
             </a>
           </li>
           <li class="rightpanel-item">
