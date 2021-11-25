@@ -315,9 +315,8 @@ body {
 
 .footer-phone:focus {
     color: #756257;
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     border-radius: 4px;
-    outline: none;
 }
 
 .footer-phone:active {
