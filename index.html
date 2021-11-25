@@ -52,7 +52,7 @@
                 Закладки
               </span>
             </a>
-            <div class="popover popover-favourites">
+            <div class="popover popover-close popover-favourites">
               <h2 class="popover-title visually-hidden">Закладки</h2>
               <ul class="popover-list list">
                 <li class="popover-list-item">
@@ -322,6 +322,46 @@
         </a>
       </section>
     </footer>
+  </div>
+  <div class="modal-container modal-container-close">
+    <div class="modal-search-window">
+      <section class="modal-content">
+        <h2 class="modal-title modal-text">Поиск гостиницы в седоне</h2>
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <form class="checkin-form modal-text" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="checkin-group modal-group">
+            <label for="checkin-date">Дата заезда:</label>
+            <input class="checkin-field modal-field modal-text" type="text" id="checkin-date" name="checkin-date"
+              placeholder="Укажите дату">
+          </p>
+          <p class="checkout-group modal-group">
+            <label for="checkout-date">Дата выезда:</label>
+            <input class="checkout-field modal-field modal-text" type="text" id="checkout-date" name="checkout-date"
+              placeholder="Укажите дату">
+          </p>
+          <div class="guests-number">
+            <p class="adults-group modal-group">
+              <label class="guests-lable" for="adults-number">Взрослые:</label>
+              <input class="adults-field modal-field modal-text" type="text" id="adults-number" name="adults-number"
+                placeholder="2">
+            </p>
+            <p class="childer-group modal-group">
+              <label class="guests-lable children-label" for="children-number">Дети:</label>
+              <button class="modal-info" type="button">
+                <span class="visually-hidden">
+                  Посмотреть дополнительную информацию
+                </span>
+              </button>
+              <input class="children-field modal-field modal-text" type="text" id="children-number"
+                name="children-number" placeholder="1">
+            </p>
+          </div>
+          <button class="modal-search-button blue-button" type="submit">Найти</button>
+        </form>
+      </section>
+    </div>
   </div>
 </body>
 
